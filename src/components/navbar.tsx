@@ -15,7 +15,7 @@ export const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Left section */}
           <div className="flex items-center gap-8">
-            <Link href="/" className="flex items-center gap-2">
+            <Link className="flex items-center gap-2" href="/">
               <Logo />
               <p className="font-bold text-inherit">ACME</p>
             </Link>
